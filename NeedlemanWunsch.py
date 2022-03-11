@@ -59,7 +59,7 @@ def needleman_wunsch(s1,s2):
     print(trace1+"\n"+trace2)
 
 
-s1 = 'ATCGG'
-s2 = 'ATGG'
+s1 = input("Enter String 1 :")
+s2 = input("Enter String 2 :")
 
 needleman_wunsch(s1,s2)
